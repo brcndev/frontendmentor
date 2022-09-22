@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Montserrat', sans-serif;  
+
+}
+
+.img {
+    width: 400px;
+    height: 470px;
+    display: flex;
+    width: 50%; 
+       
+}
+
+img {
+    width: 400px;
+    height: 470px;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+
+}
+
+html {
+    width: 100vw;
+    height: 100vh;    
+    font-size: 62.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-color:hsl(30, 38%, 92%)
+}
+
+.conteudo {
+    display: flex;
+    width: 50vw;
+    height: 75.5vh;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 12px;
+}
+
+.escrito {
+    display: flex;
+    flex-direction: column;
+    width:100%
+    
+}
+
+.perfume {
+    display: flex;
+    margin: 5vh 0 0 3vw;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: hsl(228, 12%, 48%);
+    font-weight:lighter;
+    font-size: 1.3rem;
+
+}
+
+.title {
+    font-family: 'Fraunces', serif;
+    margin: 3vh 0 0 3vw;
+    font-size: 3rem;
+    width: 60%;
+    font-weight: bolder;
+}
+
+.desc {
+    margin: 4vh 0 0 3vw;
+    color: hsl(228, 12%, 48%);
+    font-weight: lighter;
+    line-height: 3.7vh;
+    width: 70%;
+    font-size: 1.4rem;
+    word-spacing: 0.5rem;
+}
+
+.prices {
+    display: flex;
+    gap: 2vw;
+    margin: 4vh 0 0 3vw;
+    align-items: center;
+}
+
+.price {
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+    font-weight: bolder;
+    font-size: 3.2rem;
+
+}
+
+.lower {
+    font-size: 1.2rem;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+
+.btn {
+    
+    gap: 70px;
+    margin: 5vh 0 0 2.5vw;
+    width: 80%;
+    height: 4.5rem;
+    color: white;
+    background-color: hsl(158, 36%, 37%);border-radius: 10px;
+    border: none;
+
+}
